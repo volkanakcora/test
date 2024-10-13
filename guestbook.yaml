@@ -27,6 +27,6 @@ spec:
     spec:
       containers:
       - name: guestbook
-        image: k8s.gcr.io/guestbook/gb-frontend:v1
+        image: mattdevo/guestbook:latest
         ports:
         - containerPort: 3000
